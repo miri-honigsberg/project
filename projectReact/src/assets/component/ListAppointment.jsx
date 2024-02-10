@@ -1,7 +1,7 @@
 //import react from 'react';
 import Button from '@mui/material/Button';
  import {Link, useParams} from 'react-router-dom'
-///import DataStore from '../../AppStore/DataStore';
+import DataStore from '../../AppStore/DataStore';
 import React, { useEffect, useState } from 'react';
 import { observer } from "mobx-react"
 import { getAppointment } from '../../AppStore/DataServer';
@@ -73,7 +73,6 @@ useEffect(() => {
     getAppointment();
       // הרצה של קוד אסינכרוני, לדוגמה קריאה ל-API
       
-      // setList(DataStore.listAppointments)
     console.log(DataStore.listAppointments)
 
      

@@ -4,7 +4,7 @@ import Fab from '@mui/material/Fab';
 import EditIcon from '@mui/icons-material/Edit';
 import React, { useEffect, useState } from 'react';
 import EditBusinessData from './EditBusinessData'
-//import DataStore from '../../AppStore/DataStore';
+import DataStore from '../../AppStore/DataStore';
 import { getBusinessData } from '../../AppStore/DataServer';
 import logo1 from '../../assets/picture/logo1.png';
 const BusinessData = (observer(() => { 
@@ -40,7 +40,7 @@ const BusinessData = (observer(() => {
   <Dialog open={open} onClose={handleCloseModal}>
     <DialogTitle>Edit Business Details</DialogTitle>
     <DialogContent>
-      <EditBusinessData business={business} handleEdit={() => setOpen(false)} />
+      <EditBusinessData  />
     </DialogContent><DialogActions>
       <Button variant="outlined" onClick={handleCloseModal}>Cancel</Button>
       {/* <Button onClick={() => handleEdit(business)}>Save</Button> */}

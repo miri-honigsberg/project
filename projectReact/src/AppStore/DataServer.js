@@ -1,6 +1,6 @@
 import { action, makeObservable, observable, runInAction } from 'mobx'
 import axios from 'axios'
-//import *   as DataStore from './DataStore';
+import  DataStore from './DataStore';
 
 //import {addAppointment,addServiceToServer, getServices, getAppointment}from './DataStore';
 

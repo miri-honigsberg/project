@@ -1,10 +1,10 @@
 import { observer } from 'mobx-react';
 import { Button, TextField } from '@mui/material';
 import  { useState } from 'react';
-//import {updateBusinessData} from '../../AppStore/DataServer';
+import DataStore from '../../AppStore/DataStore';
 
-const EditBusinessData = (observer(({ business, handleEdit}) => {
-  const [editBusiness, setEditBusiness] = useState(business);
+const EditBusinessData = (observer(() => {
+  const [editBusiness, setEditBusiness] = useState(DataStore.businessData);
   const handleFormSubmit = (e) => {
     e.preventDefault();
     updateBusinessData(editBusiness).then(x=>{

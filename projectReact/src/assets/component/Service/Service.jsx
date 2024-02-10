@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
-//import DataStore from '../../../AppStore/DataStore';
+import DataStore from '../../../AppStore/DataStore';
 
 const Service = ({ service }) => {
   useEffect(() => {
