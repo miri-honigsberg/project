@@ -1,0 +1,32 @@
+.d_calender {
+ 
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .red{
+    background-color: rgb(255, 0, 0);
+    border: 1px solid black;
+    border-radius: 2px;
+  }
+  .orange{
+    background-color:rgb(255, 128, 0);    border: 1px solid black;
+    border-radius: 2px;
+  }
+  .green{
+    background-color: rgb(26, 255, 1);
+    border: 1px solid black;
+    
+  }
+    /* { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+   
+   
+       }
+       */

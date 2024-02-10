@@ -1,0 +1,121 @@
+
+
+.hd { 
+  /* position: absolute; */
+ z-index: 1;
+ background-color: #e6f4ff; /* Set a lighter blue background color */
+ /* padding: 5px; */
+ text-align: center;
+}
+
+.heade-content {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.header-logo {
+ width: 100px;
+ box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header-title {
+ font-size: 24px;
+ color: #6db6ff; /* Set a light blue text color */
+ margin-top: 1px;
+}
+
+.header-subtitle {
+ font-size: 18px;
+ color: #4d9eff; /* Set a lighter blue text color */
+ margin-top: 1px;
+}
+
+.header-description {
+ font-size: 16px;
+ color: #2196f3; /* Set a slightly darker blue text color */
+ margin-top: 1px;
+}
+
+.header-address {
+ font-size: 14px;
+ color: #1976d2; /* Set a dark blue text color */
+ margin-top: 1px;
+}
+
+.header-disclaimer {
+ font-size: 12px;
+ color: #1565c0; /* Set a slightly darker dark blue text color */
+ margin-top: 1px;
+}
+
+
+/*.card {
+    position:absolute;
+     /* קבע את המיקום באמצעות פיקסלים או אחוזים */
+   /* top: 0; /* הכרטיס יישאר בחלק העליון של המסך */
+   /* right: 300;
+    left: 300;
+    background-color: #d4dde1; /* צבע רקע של הכרטיס */
+   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* יצירת צל לכרטיס */
+    /*z-index: 1000; /* השכבה של הכרטיס מול שאר התוכן בעמוד */
+    /*margin-left: 60px; 
+    background-image: url('../assets/picture/200.png');
+    height: 5%;
+    display: none;
+   
+  }
+  #hh1{
+    color: rgb(171, 29, 147);
+  }
+
+  .header-logo {
+    width: 300px;
+    height: auto;
+    margin-bottom: 300px;
+  }
+
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-logo {
+  width: 100px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header-title {
+  font-size: 24px;
+  color: #6db6ff; /* Set a light blue text color */
+
+.header-subtitle {
+  font-size: 18px;
+  color: #4d9eff; /* Set a lighter blue text color */
+  margin-top: 1px;
+}
+
+.header-description {
+  font-size: 16px;
+  color: #2196f3; /* Set a slightly darker blue text color */
+  margin-top: 1px;
+}
+
+.header-address {
+  font-size: 14px;
+  color: #1976d2; /* Set a dark blue text color */
+  margin-top: 1px;
+}
+
+.header-disclaimer {
+  font-size: 12px;
+  color: #1565c0; /* Set a slightly darker dark blue text color */
+  margin-top: 1px;
+}
+
+
+
+  
+  
