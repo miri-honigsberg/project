@@ -1,12 +1,16 @@
 import { action, makeObservable, observable, runInAction } from 'mobx'
 import axios from 'axios'
-import DataStore from './DataStore';
+//import *   as DataStore from './DataStore';
+
+//import {addAppointment,addServiceToServer, getServices, getAppointment}from './DataStore';
+
+
 
 export const Login = async () => {
   axios.get("http://localhost:8080/login").then((result) => {
     runInAction(() => {
       this.listServices = result.data;
-
+ 
     });
   });
 

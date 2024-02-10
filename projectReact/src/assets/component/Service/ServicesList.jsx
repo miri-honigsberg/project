@@ -3,7 +3,7 @@ import React,{useEffect} from 'react'
 import Service from './Service';
 //import AddService from './AddService';
 import { getServices } from '../../../AppStore/DataServer';
-import DataStore from '../../../AppStore/DataStore';
+//import DataStore from '../../../AppStore/DataStore';
 import './ServicesList.css'
 
 
